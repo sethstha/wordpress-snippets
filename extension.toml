@@ -1,0 +1,8 @@
+id = "wordpress-snippets"
+name = "WordPress Snippets"
+version = "0.1.0"
+schema_version = 1
+authors = ["Sanjeev Shrestha <sethstha@gmail.com>"]
+description = "A collection of WordPress snippets."
+repository = "https://github.com/sethstha/wordpress-snippets"
+snippets = "./snippets/php.json"
