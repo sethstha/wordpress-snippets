@@ -1,0 +1,14 @@
+{
+  "Add action": {
+    "prefix": "add_action",
+    "body": [
+      "add_action( '${1:hook_name}', '${2:function_name}', ${3:priority}, ${4:number_of_args} );"
+    ],
+    "description": "Adds actions"
+  },
+  "Do action": {
+    "prefix": "do_action",
+    "body": ["do_action( '${1:hook_name}', ${2:args} );"],
+    "description": "Do actions"
+  }
+}
